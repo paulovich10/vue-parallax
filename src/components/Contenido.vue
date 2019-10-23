@@ -1,6 +1,6 @@
 <template>
 
-    <section class="container">
+    <section class="container flex flex-column items-center">
 
         <h2 class="centrar">Servicio a empresas</h2>
         <p class="centrar"><strong>Resolvemos el reto diario del almuerzo, tanto a nivel individual como colectivo,<br>
@@ -11,7 +11,7 @@
             <div class="flex flex-row row">
                 <div class="imagen">
 
-                    <img src="../assets/servicio-01.svg" alt="ordenador">
+                    <img src="../assets/delivery.jpg" alt="ordenador">
 
                 </div>
 
@@ -34,7 +34,7 @@
 
                 <div class="imagen">
 
-                    <img src="../assets/servicio-03.svg" alt="chica">
+                    <img src="../assets/office.jpg" alt="chica">
 
                 </div>
             </div>
@@ -42,7 +42,7 @@
              <div class="flex flex-row row">
                 <div class="imagen">
 
-                    <img src="../assets/servicio-02.svg" alt="ordenador">
+                    <img src="../assets/break.jpg" alt="ordenador">
 
                 </div>
 
@@ -89,16 +89,18 @@ h3 {
 
 .container-grid {
     padding-top: 10%;
-    width: 80%;
-    margin-left: 12%;
-    margin-right: 12%;
     padding-bottom: 10%;
+}
 
+.container-grid > div {
+
+    margin-top: 10%;
 }
 
 .container {
 
- background-color: rgb(250,250,250);
+ background-color: white;
+ 
 
 }
 
@@ -119,20 +121,17 @@ p {
 .texto {
 
     background-color: white;
-    width: 650px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    padding-left: 10%;
-    padding-right: 5%;
-
+    padding: 3%;
 }
 
 .imagen  {
   
      box-sizing: inherit;
-     width: 650px;
 }
 
 .centrar {

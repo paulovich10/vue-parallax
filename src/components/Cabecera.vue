@@ -1,8 +1,10 @@
 <template>
 
+<!-- comentario para commit -->
+
 <div class="hero flex items-center">
 
-      <img src="../assets/hero-home.jpg" alt="">
+      <img src="../assets/cabecera.jpg" alt="">
 
       <div class="hero-caption">
           <h1>Disfruta de un almuerzo rico, sano y comprometido en la oficina</h1>
@@ -65,7 +67,7 @@ position: relative;
 
 .hero img {
   width: 100%;
-  filter:brightness(0.5);
+  filter:brightness(0.4);
   z-index: 0;
 }
 

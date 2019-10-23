@@ -5,7 +5,7 @@
 
     <parallax :fixed="true">
 
-      <img src="../assets/hero-actions.jpg" alt="">
+      <img src="../assets/aside.jpg" alt="">
 
     </parallax>
 

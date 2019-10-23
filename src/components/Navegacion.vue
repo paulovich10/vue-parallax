@@ -42,6 +42,9 @@ export default {
 
 .blanco {
    background-color: white;
+   position: fixed;
+   width: 100%;
+   z-index: 999;
 
 }
 
@@ -55,7 +58,13 @@ nav a {
     padding: 1.5%;
     font-family: 'Roboto', sans-serif;
     color: rgb(137,137,137);
+    transition: all .5s;
 
+}
+
+nav a:hover {
+
+    color: #03d0b6;
 }
 .btn {
     width: 120px;
@@ -75,6 +84,7 @@ i {
 
 .item-dos {
     flex-grow: 2;
+    visibility: hidden;
 }
 
 #logo {
