@@ -4,10 +4,10 @@
         <div class="item-uno">
             <nav class="flex flex-row items-center">
 
-                <a href="#">Quienes somos</a>
-                <a href="#">Cómo funciona</a>
-                <a href="#">Servicios a empresas</a>
-                <a href="#">Compromiso</a>
+                <a @click.prevent="scrollTo('#footer')" href="#">Quienes somos</a>
+                <a @click.prevent="scrollTo('#cabecera')" href="#">Cómo funciona</a>
+                <a @click.prevent="scrollTo('#contenido')" href="#">Servicios a empresas</a>
+                <a @click.prevent="scrollTo('#aside')"  href="#">Compromiso</a>
 
             </nav>
 
@@ -33,9 +33,21 @@
 </template>
 
 <script>
+
+
 export default {
-    
-}
+  name: 'Navegacion',
+  props: {
+  },
+ methods: {
+
+    scrollTo: function(selector)  {
+
+      document.querySelector(selector).scrollIntoView({ behavior: 'smooth' })
+    }
+  }
+  }
+
 </script>
 
 <style scoped>

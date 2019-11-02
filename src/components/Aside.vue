@@ -1,7 +1,7 @@
 <template>
 
 <aside>
-  <div class="flex items-center">
+  <div class="flex items-center" id="aside">
 
     <parallax :fixed="true">
 

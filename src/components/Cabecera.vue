@@ -2,7 +2,7 @@
 
 <!-- comentario para commit -->
 
-<div class="hero flex items-center">
+<div class="hero flex items-center" id="cabecera">
 
       <img src="../assets/cabecera.jpg" alt="">
 

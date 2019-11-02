@@ -1,6 +1,6 @@
 <template>
 
-    <footer class="flex flex-column">
+    <footer class="flex flex-column" id="footer">
 
         <div class="container flex flex-row justify-between">
 

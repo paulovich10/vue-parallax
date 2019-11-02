@@ -1,6 +1,6 @@
 <template>
 
-    <section class="container flex flex-column items-center">
+    <section id="contenido" class="container flex flex-column items-center">
 
         <h2 class="centrar">Servicio a empresas</h2>
         <p class="centrar"><strong>Resolvemos el reto diario del almuerzo, tanto a nivel individual como colectivo,<br>
@@ -62,6 +62,8 @@
 </template>
 
 <script>
+
+
 export default {
     
 }
@@ -111,9 +113,9 @@ section {
 
 p {
 
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.4;
+    line-height: 1.8;
     color: #838286;
 
 }

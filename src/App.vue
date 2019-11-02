@@ -27,7 +27,9 @@ export default {
     Contenido,
     Aside,
     Footer
-  }
+  },
+
+  
 }
 </script>
 
